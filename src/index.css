@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.dark{
+  background: #000;
+  text: #fff;
+  outline: #fff;
+  
+}
+.darker{
+  background: #171717;
+  text: #fff;
+  outline: #fff;
+  
+}
+.light{
+  background: #fff;
+  text:#000;
+  outline: #000;
+}
